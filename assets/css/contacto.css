@@ -1,0 +1,240 @@
+/**
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}*/
+
+body {
+	
+	background-image: url(../../imagenes/fondo.jpg);
+}
+
+.curriculum {
+	width: 100%;
+	height: 710px;
+	
+}
+
+.curriculum_imagenes {
+	width: 100%;
+	height: 100%;
+}
+
+
+.row1 {
+	width: 100%;
+	height: 350px;
+
+}
+
+.row1_1 {
+	width: 80%;
+	height: 100px;
+	
+	margin: 0 auto;
+	margin-top: 10px;
+	
+
+}
+
+.row1_2 {
+	width: 80%;
+	height: 100px;
+	
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.row1_3 {
+	width: 80%;
+	height: 100px;
+	
+	margin: 0 auto;
+	margin-top: 20px;
+	
+}
+
+.row2 {
+	width: 100%;
+	height: 350px;
+	
+}
+
+.row2_1 {
+	width: 80%;
+	height: 100px;
+	
+	margin: 0 auto;
+	margin-top: 10px;
+
+}
+
+.row2_2 {
+	width: 80%;
+	height: 100px;
+
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.row2_3 {
+	width: 80%;
+	height: 100px;
+	
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+
+
+
+@media all and (min-width: 768px) {
+	body {
+		
+	}
+
+.curriculum {
+	height: 400px;
+}
+
+
+.row1 {
+	height: 200px;
+	
+
+
+}
+
+.row1_1 {
+	width: 30%;
+	height: 150px;
+	
+	
+	
+	float: left;
+	margin-top: 0px;
+
+}
+
+.row1_2 {
+	width: 30%;
+	height: 150px;
+
+	float: left;
+	margin-top: 0px;
+	margin-left: 35px;
+
+}
+
+.row1_3 {
+	width: 30%;
+	height: 150px;
+	
+	float: right;
+	margin-top: 0px;
+	
+}
+
+.row2 {
+	height: 200px;
+
+}
+
+.row2_1 {
+	width: 30%;
+	height: 150px;
+	
+	
+	
+	float: left;
+	margin-top: 0px;
+
+}
+
+.row2_2 {
+	width: 30%;
+	height: 150px;
+	
+	float: left;
+	margin-top: 0px;
+	margin-left: 35px;
+
+}
+
+.row2_3 {
+	width: 30%;
+	height: 150px;
+	
+	float: right;
+	margin-top: 0px;
+	
+}
+
+
+	
+}
+
+@media all and (min-width: 1024px) {
+	body {
+		
+	}
+
+.row1_2 {
+	margin-left: 50px;
+}
+
+.row2_2 {
+	margin-left: 50px;
+}
+
+
+
+@media all and (min-width: 1280px) {
+	
+
+.curriculum {
+	height: 600px;
+	
+}
+
+.row1 {
+	height: 250px;
+}
+
+.row1_1 {
+	height: 250px;
+}
+
+
+.row1_2 {
+	height: 250px;
+}
+
+.row1_3 {
+	height: 250px;
+}
+
+
+.row2 {
+	height: 250px;
+	margin-top: 30px;
+}
+
+.row2_1 {
+	height: 250px;
+}
+
+
+.row2_2 {
+	height: 250px;
+}
+
+.row2_3 {
+	height: 250px;
+}
+
+
+
+	
+}
